@@ -46,8 +46,7 @@
 ## 下期预告
 ## 如何联系维护者或开发者
 
-
-__OpenELAB官方网站:__ [![openelab]()](https://openelab.io)  
+__OpenELAB官方网站:__ [![openelab](https://github.com/OpenELAB/OpenELAB-M5StickCPlus2-Slot-Chinese/issues/1#issue-2519063618)](https://openelab.io)  
 
 __YouTube:__  
 [![YouTube](https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg)](https://www.youtube.com/@OpenELAB)  
