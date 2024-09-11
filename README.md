@@ -53,7 +53,7 @@ __OpenELAB官方网站:__
 
 __YouTube:__  
 [![YouTube](https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg)](https://www.youtube.com/@OpenELAB)  
-__X:__
+__X:__。
 [![X](![X](https://your-image-hosting-url.com/x-logo.svg))](https://twitter.com/openelabio)  
 __FaceBook:__  
 [](https://www.facebook.com/profile.php?id=61559154729457)  
