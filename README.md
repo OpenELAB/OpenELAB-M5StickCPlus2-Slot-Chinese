@@ -47,7 +47,7 @@
 ## 如何联系维护者或开发者
 
 
-__OpenELAB官方网站:__ [](https://openelab.io)  
+__OpenELAB官方网站:__ [![openelab]()](https://openelab.io)  
 
 __YouTube:__  
 [![YouTube](https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg)](https://www.youtube.com/@OpenELAB)  
