@@ -22,13 +22,13 @@
 │──  Slot.cpp                 # Slot功能实现文件
 │──  SLot.h                   # Slot功能定义文件
 │──  image                    # 图片素材文件
-  │──slot_bar.h               # esp32图标
-  │──slot_cherry.h            # 樱桃图标
-  │──slot_lemon.h             # 柠檬图标 
-  │──slot_openelab.h          # OpenELAB logo
-  │──slot-orange.h            # 橘子图标
-  │──slot_seven.h             # 数字7图标
-  │──slot_symbols.h           # 图标数据
+  │──  slot_bar.h               # esp32图标
+  │──  slot_cherry.h            # 樱桃图标
+  │──  slot_lemon.h             # 柠檬图标 
+  │──  slot_openelab.h          # OpenELAB logo
+  │──  slot-orange.h            # 橘子图标
+  │──  slot_seven.h             # 数字7图标
+  │──  slot_symbols.h           # 图标数据
 ```
 ## 安装与运行
 
@@ -45,6 +45,17 @@
 ## 使用说明
 ## 下期预告
 ## 如何联系维护者或开发者
+
+
+__OpenELAB官方网站:__ [](https://openelab.io)  
+
+__YouTube:__  
+[![YouTube](https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg)](https://www.youtube.com/@OpenELAB)  
+__X:__
+[![X](![X](https://your-image-hosting-url.com/x-logo.svg))](https://twitter.com/openelabio)  
+__FaceBook:__  
+[](https://www.facebook.com/profile.php?id=61559154729457)  
+
 __源码改自于__
 [M5StickCPlus](https://github.com/Sarah-C/M5StickC_Plus_Slot_Machine)
 
