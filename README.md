@@ -41,8 +41,25 @@
 链接：稍后上传
 ```
 ### 安装依赖
-1、安装好Arduino IDE后，打开
-2、
+1、安装好Arduino IDE后，打开Arduino设置，复制M5开发板链接到图示箭头处后点击OK保存
+```
+https://static-cdn.m5stack.com/resource/arduino/package_m5stack_index.json
+```
+![QQ_1726105473838](https://github.com/user-attachments/assets/367bd060-13ab-4eda-9a43-13fbc0250580)  
+  
+2、打开Tools->Board->Boards Manager  
+
+![QQ_1726105693629](https://github.com/user-attachments/assets/e70b4f19-c21a-4ea5-80e2-4d150b54a35f)  
+  
+3、搜索M5Stack，并选择安装，本主机已经安装所以不再重复安装  
+
+![QQ_1726105854495](https://github.com/user-attachments/assets/11b18b6c-c8db-4ea4-b209-d22dd26eebbe) 
+
+4、选择开发版，Tools->Board->M5Stack Arduino->M5StickCPlus2  
+
+![QQ_1726106054203](https://github.com/user-attachments/assets/0a38bd41-2161-4ffd-9358-87ba71cba7f0)
+
+5、
 ### 编译运行
 ## 使用说明
 ## 下期预告
