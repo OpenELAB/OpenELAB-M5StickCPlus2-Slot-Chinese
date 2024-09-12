@@ -22,7 +22,7 @@
   │──  M5StickCPlus2_slot.ino   # 源代码文件
   │──  Slot.cpp                 # Slot功能实现文件
   │──  SLot.h                   # Slot功能定义文件
-  │──  image                    # 图片素材文件
+  │──  image                    # 图片素材文件夹
     │──  slot_bar.h               # esp32图标
     │──  slot_cherry.h            # 樱桃图标
     │──  slot_lemon.h             # 柠檬图标 
@@ -64,8 +64,20 @@ https://static-cdn.m5stack.com/resource/arduino/package_m5stack_index.json
 5、接下来安装M5StickCPlus2库，选择Tools->Manage Libraries，搜索M5StickCPlus2，再选择安装，此处已经安装就不再重复安装。
 
 ![QQ_1726106703496](https://github.com/user-attachments/assets/312bc9e1-521c-479e-831a-a3c22e45a6ec)  
+
 ### 编译运行
-1、完成安装依赖后，打开好下载的
+1、完成安装依赖后，打开好下载的压缩包  
+
+![QQ_1726107516108](https://github.com/user-attachments/assets/cb2362f7-1871-418e-94dd-92ddfe7284b7)  
+
+2、使用USB-C将Plus2连接至电脑，选择Tools->Port选择自己的端口  
+
+![QQ_1726107673971](https://github.com/user-attachments/assets/17f0392a-b753-4aba-946c-ede75ba9092f)  
+
+3、点击编译后再点击上传  
+
+![QQ_1726107957719](https://github.com/user-attachments/assets/c1f953ad-5355-44e8-af0c-ac5da7542aa6)  
+
 ## 使用说明
 ## 下期预告
 ## 如何联系维护者或开发者
