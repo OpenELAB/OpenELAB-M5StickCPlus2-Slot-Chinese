@@ -74,16 +74,32 @@ https://static-cdn.m5stack.com/resource/arduino/package_m5stack_index.json
 
 ![QQ_1726107673971](https://github.com/user-attachments/assets/17f0392a-b753-4aba-946c-ede75ba9092f)  
 
-3、点击编译后再点击上传  
+3、点击编译，待编译完成后再点击上传  
 
 ![QQ_1726107957719](https://github.com/user-attachments/assets/c1f953ad-5355-44e8-af0c-ac5da7542aa6)  
 
 ## 使用说明
+- ### 图片顺序、个数
+老虎机共五列，每一列拥有10个图标可以自己调整顺序，目前image中有六个素材图片的48*48像素的RGB十六进制数据，0 - 5号分别对应slot_symbols中数组按顺序下来的六个元素，更改源码中symbolIndices数组中的数字即可更改图片在每一列的顺序和个数
+![QQ_1726108827608](https://github.com/user-attachments/assets/45b5878d-3624-47b5-a671-fc40937d1898)
+
+- ### 列与列、图与图的间隔
+通过更改PAD_X以及PAD_Y可以更改列与列、图与图的间隔，通常默认是2，0  
+
+![QQ_1726109192019](https://github.com/user-attachments/assets/3e14c412-8342-486d-ba00-b6a0f4d357ac)
+
+- ### 转盘转动速度、停止减小速度
+```
+#define Speed_MAX 800//老虎机旋转的最高速度
+#define Speed_MIN 50//老虎机旋转最低速
+#define Acceleration_MAX 12 //老虎机加速时的加速度
+#define Acceleration_MIN -20//老虎机减速时的加速度
+```
+  ![QQ_1726109492610](https://github.com/user-attachments/assets/aaa6b4a0-79b1-491a-8dbd-ca76cc8c1eee)
+
 ## 下期预告
+
 ## 如何联系维护者或开发者
-
-
-
 __OpenELAB:__   
 [![OpenELAB](https://private-user-images.githubusercontent.com/180402004/366379735-e03723c2-c213-421f-a517-e482f67f3660.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjYwNDU2NTIsIm5iZiI6MTcyNjA0NTM1MiwicGF0aCI6Ii8xODA0MDIwMDQvMzY2Mzc5NzM1LWUwMzcyM2MyLWMyMTMtNDIxZi1hNTE3LWU0ODJmNjdmMzY2MC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwOTExJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDkxMVQwOTAyMzJaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1mOWE1NGE1ZDhhOTNhMjJmNTRmZmMxYTk1YzA3MDNmNTY5MzQ1NGZkNDEzMDk4OTM4MTdjM2I1ZGNmMDYzODY2JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.qnnW0ggDBwf9vP7yfAQU-oMGHnGr0-FJKsb38NDInco)](https://openelab.io)  
 __YouTube:__  
