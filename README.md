@@ -57,10 +57,14 @@ https://static-cdn.m5stack.com/resource/arduino/package_m5stack_index.json
 
 4、选择开发版，Tools->Board->M5Stack Arduino->M5StickCPlus2  
 
-![QQ_1726106054203](https://github.com/user-attachments/assets/0a38bd41-2161-4ffd-9358-87ba71cba7f0)
+![QQ_1726106317846](https://github.com/user-attachments/assets/203d874b-f316-4ae7-827b-2e01493ce08d)
 
-5、
+
+5、接下来安装M5StickCPlus2库，选择Tools->Manage Libraries，搜索M5StickCPlus2，再选择安装，此处已经安装就不再重复安装。
+
+![QQ_1726106703496](https://github.com/user-attachments/assets/312bc9e1-521c-479e-831a-a3c22e45a6ec)  
 ### 编译运行
+1、完成安装依赖后，打开好下载的
 ## 使用说明
 ## 下期预告
 ## 如何联系维护者或开发者
