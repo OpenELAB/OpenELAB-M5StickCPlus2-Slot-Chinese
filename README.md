@@ -80,7 +80,8 @@ https://static-cdn.m5stack.com/resource/arduino/package_m5stack_index.json
 
 ## 使用说明
 - ### 图片顺序、个数
-老虎机共五列，每一列拥有10个图标可以自己调整顺序，目前image中有六个素材图片的48*48像素的RGB十六进制数据，0 - 5号分别对应slot_symbols中数组按顺序下来的六个元素，更改源码中symbolIndices数组中的数字即可更改图片在每一列的顺序和个数
+老虎机共五列，每一列都可以放置 10 个图标，而且你可以随意调整它们的顺序！💡目前，我们已经准备了 6 个 48x48 像素的素材图标，它们的 RGB565 十六进制数据已经在代码里了，分别对应 slot_symbols 数组中的 0 到 5 号元素。如果你想调整每列的图标顺序和数量，只需要轻松修改 symbolIndices 数组中的数字，就能改变每一列的图标显示效果！🔧🎨  
+
 ![QQ_1726108827608](https://github.com/user-attachments/assets/45b5878d-3624-47b5-a671-fc40937d1898)
 
 - ### 列与列、图与图的间隔
