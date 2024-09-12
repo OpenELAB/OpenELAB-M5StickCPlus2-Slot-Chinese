@@ -18,17 +18,18 @@
 ## 项目结构
 ``` 
 │──  README.md                # 项目说明文件
-│──  M5StickCPlus2_slot.ino   # 源代码文件
-│──  Slot.cpp                 # Slot功能实现文件
-│──  SLot.h                   # Slot功能定义文件
-│──  image                    # 图片素材文件
-  │──  slot_bar.h               # esp32图标
-  │──  slot_cherry.h            # 樱桃图标
-  │──  slot_lemon.h             # 柠檬图标 
-  │──  slot_openelab.h          # OpenELAB logo
-  │──  slot-orange.h            # 橘子图标
-  │──  slot_seven.h             # 数字7图标
-  │──  slot_symbols.h           # 图标数据
+│──  M5StickCPlus2_slot       # 源代码文件夹
+  │──  M5StickCPlus2_slot.ino   # 源代码文件
+  │──  Slot.cpp                 # Slot功能实现文件
+  │──  SLot.h                   # Slot功能定义文件
+  │──  image                    # 图片素材文件
+    │──  slot_bar.h               # esp32图标
+    │──  slot_cherry.h            # 樱桃图标
+    │──  slot_lemon.h             # 柠檬图标 
+    │──  slot_openelab.h          # OpenELAB logo
+    │──  slot-orange.h            # 橘子图标
+    │──  slot_seven.h             # 数字7图标
+    │──  slot_symbols.h           # 图标数据
 ```
 ## 安装与运行
 
